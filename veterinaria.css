@@ -1,0 +1,197 @@
+body
+{
+  background: #c2c2c2;
+}
+
+/*primer cuadro*/
+header
+{
+  border-radius: 20px; /*dobla los bordes del cuadro*/
+  padding: 50px;
+  border: solid 2px black; /*las lineas de los borde de los cuadros*/
+  margin-top: 10px;
+  display: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  height: 120px;
+}
+  
+/*comodar la imagen a los lados*/
+header img
+{
+  float: right;
+  height: 100%;
+  margin-right: 10px; /*movimiento a los lados*/
+  position: relative;
+  top: -10px;
+}
+
+/*primeros textos de c y f, c.v*/
+header
+{
+    font-family: "impact", sans-serif;
+    text-align: center;
+    background: #d6ad60;
+}
+
+/*primer texto de centro vetrianrio*/
+header h1 
+{
+   font-size: 40px;
+  -webkit-text-stroke: 1px rgb(163, 165, 164);
+   color: #7c7a7a;
+   margin-top: -1%;
+}
+
+/*segundo texto de caninos y felinos*/
+header h2
+{
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+   color: #000000;
+   margin-top: 1%;
+   font-size: 30px;
+}
+
+/*primer texto de camininos y feninos*/
+p
+{
+   font-size: 20px;
+}
+
+/*botonees de navegacion*/
+a
+{
+  display: inline-block;
+  background: salmon;
+  color: #000000;
+  padding: 10px 30px;
+  position: relative;
+  top: -2px;
+  margin-right: 100px; /*espacios entre los elementos*/
+  border-radius: 50px 30px; /*bordes de los cuadros*/
+  border: solid 2px rgb(255, 254, 254);
+}
+
+/*barra de color de navegacion*/
+.nav
+{
+  background: rgb(150, 149, 151);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8px;
+  width: 99%;
+  border-radius: 20px;
+  border: solid 2px black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);/* sombras */
+  margin:1% 40% 4% 0%;
+}
+
+/*cuadros del texto cuidado y educacion para los perros*/
+.cuidados
+{
+border-radius: 20px; /*dobla los bordes del cuadro*/
+padding: 10px;
+border: solid 2px black; /*las lineas de los borde de los cuadros*/
+box-shadow: 10px 10px 5px rgba(51, 50, 50, 0.5); 
+margin: 0% 40% 2% 0%; /* tamaño del cuadro*/
+background: #808080;
+}
+
+
+/*titulo del cuidado y educacion para los perros*/
+div h2
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+/*imagen del cuidado de los animales*/
+div img
+{
+  width: 100px;
+}
+
+/*parrafo del cuidado de los animales*/
+div h
+{
+  display: flex;
+  font-size: 30px;
+  position: absolute;
+  color: #000000;
+  margin-top: -230px;
+  left: 210px;
+  margin-right: 50;
+}
+
+/*boton de ver mas tarde de cuidados para las macotas*/
+.show1 
+{
+  margin-left: 870px;
+}
+
+/*boton de ver mas tarde de cuidados para las macotas*/
+.show1 a{
+  background-color: #f8f8f8;
+  color: #020202;
+  border:1px solid #f5f5f5;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-left: 70%;
+ 
+}
+
+/*cuadro de salir con su mascota*/
+.Viajar
+{
+  border-radius: 20px; /*dobla los bordes del cuadro*/
+  padding: 10px;
+  border: solid 2px black; /*las lineas de los borde de los cuadros*/
+  display: center;
+  position: relative;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  background: #808080;
+  margin:1% 40% 0% 0%; /*ser los cuadros*/
+}
+
+/*titulo de salir con su mascota*/
+section h2
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+/*imagen de salir con la macota*/
+section img
+{
+  width: 100px;
+}
+
+/*boton de ver mas tarde de salir con su macotas*/
+.show2 
+{
+  margin-left: 94%;
+}
+
+/*boton de ver mas tarde de salir con su macota*/
+.show2 a{
+  background-color: #f8f8f8;
+  color: #020202;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.contenedor
+{
+  height: 100%;
+  width: 39%;
+  margin-top: -45%;
+  border: solid 2px black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  float: right;
+  background-color: #7c7a7a;
+  overflow: hidden;
+}
